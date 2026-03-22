@@ -4,6 +4,11 @@ import qrcode
 import os
 from datetime import datetime
 import geocoder
+import os
+
+# CREATE FOLDER IF NOT EXISTS
+if not os.path.exists("stickers"):
+    os.makedirs("stickers")
 
 # CONFIG
 SHOP_NAME = "Makkah Autos"
